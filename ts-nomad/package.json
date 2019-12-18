@@ -1,0 +1,16 @@
+{
+  "name": "ts-nomad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tsc-watch": "^3.0.0",
+    "typescript": "^3.6.2"
+  },
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node ./dist/index.js\""
+  },
+  "author": "",
+  "license": "ISC"
+}
